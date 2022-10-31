@@ -26,7 +26,7 @@ public class Ejercicio3 {
         do {
             suma += numWhile;
             numWhile--;
-        } while (num > 0);
+        } while (numWhile > 0);
 
         // ! Mostramos el resultado final al usuario
         System.out.println("La suma de los numeros desde el 1 hasta el numero " + num + " es: " + suma);
