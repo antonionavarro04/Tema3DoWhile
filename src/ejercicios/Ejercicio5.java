@@ -10,17 +10,18 @@ public class Ejercicio5 {
         // ^ Creamos las variables num, mayor y menor
         int num, mayor = 100, menor = 1;
 
+        // ! Generamos un primer numero aleatorio entre el 1 y el 100
         num = (int) (Math.random() * (100 - 1)) + 1;
 
-        // ^ Creamos las variables final menor, mayor o igual
+        // ^ Creamos las variables finales, MAYOR, MENOR e IGUAL para ayudarnos a comparar los numeros
         final int MAYOR = 1;
         final int MENOR = 2;
         final int IGUAL = 3;
 
         // ^ Creamos la variable userChoice para guardar la eleccion del usuario
-        byte userChoice;
+        byte userChoice = 0;
 
-        // ^ Creamos la variable boolean haAdivinado
+        // ^ Creamos la variable boolean haAdivinado, empezará siendo false y será true cuando el usuario diga que el numero es igual
         boolean haAdivinado = false;
 
         // ^ Creamos el Scanner en la variable read y cambiamos al formato de US
