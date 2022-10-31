@@ -1,7 +1,7 @@
 package ejercicios;
 
 public class Ejercicio1 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         // ? Programa Java que mediante un Do-While muestra los números del 1 al 20.
         // ^ Creamos la variable num la cual se va a incrementar en 1 cada vez que se ejecute el bucle.
         int num = 1;
