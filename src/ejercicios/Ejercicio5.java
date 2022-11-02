@@ -19,8 +19,7 @@ public class Ejercicio5 {
         final byte IGUAL = 3;
 
         // ^ Creamos la variable userChoice para guardar la eleccion del usuario y intentos para guardar el numero de intentos
-        byte userChoice = 0;
-        byte intentos = 0;
+        byte userChoice = 0, intentos = 0;
 
         // ^ Creamos la variable boolean haAdivinado, empezará siendo false y será true cuando el usuario diga que el numero es igual
         boolean haAdivinado = false;
